@@ -2,6 +2,11 @@
 
 A Python project that runs an **MCP client** (OpenAI-backed) and an **MCP weather server**, so you can chat with an LLM and have it call weather tools (alerts and forecasts via the US National Weather Service API).
 
+## FlowChart
+
+![Demo Image](images/FlowChart.png)
+
+
 ## Project structure
 
 - **`mcp/client.py`** — MCP client that connects to MCP servers over stdio and uses **OpenAI** (GPT-4o) to answer queries using the server’s tools.
