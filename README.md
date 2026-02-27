@@ -1,14 +1,14 @@
-# 🌤️ MCP (Model Context Protocol)
+#  MCP (Model Context Protocol)
 
 A Python project that runs an **MCP client** (OpenAI-backed) and an **MCP weather server**, enabling intelligent conversations with an LLM that can call real-time weather tools (alerts and forecasts via the US National Weather Service).
 
-## 📊 FlowChart
+##  FlowChart
 
 ![Demo Image](images/FlowChart.png)
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 | File | Purpose |
 |------|---------|
@@ -57,7 +57,7 @@ export OPENAI_API_KEY=your-openai-api-key
 
 ---
 
-## 🚀 Running the Client
+##  Running the Client
 
 Connect the client to the weather server and start an interactive chat session.
 
@@ -114,11 +114,6 @@ Add the following to your Claude Desktop MCP config (`claude_desktop_config.json
   - `httpx`
 
 ---
-
-## 📝 License
-
-[Add your license here]
-
 ---
 
 **Happy weather querying! 🌦️**
